@@ -1,4 +1,4 @@
-FILEPATH = "App/todos.txt"
+FILEPATH = "todos.txt"
 
 def get_todos(filepath=FILEPATH):
     """ Read a text file and return the list of to-do items. """
@@ -17,3 +17,5 @@ def write_todos(todos_arg, filepath=FILEPATH):
 
 if __name__ == "__main__":
     print("Hello ")
+    # write_todos("play cricket\n")
+    # write_todos("Go outside.")
