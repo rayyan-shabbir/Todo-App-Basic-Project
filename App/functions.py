@@ -15,5 +15,5 @@ def write_todos(filepath, todos_arg):
         file.writelines(todos_arg)
 
 
-if __name__ +== "__main__":
+if __name__ == "__main__":
     print("Hello ")
